@@ -331,7 +331,7 @@ function App() {
               onClick={() => handleFlip(item, key)}
               style={{ backgroundColor: colors[key % colors.length] }}
               key={key}
-              className={`h-24 w-24 sm:w-20 sm:h-20 md:w-24 md:h-24 flex items-center justify-center rounded-xl sm:rounded-2xl cursor-pointer transition-transform hover:scale-105 ${
+              className={`h-18 w-18 sm:w-20 sm:h-20 md:w-24 md:h-24 flex items-center justify-center rounded-xl sm:rounded-2xl cursor-pointer transition-transform hover:scale-105 ${
                 item.isCompleted ? 'opacity-50' : ''
               }`}
             >
